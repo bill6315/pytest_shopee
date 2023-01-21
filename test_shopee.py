@@ -8,8 +8,8 @@ import os
 
 
 
-account = '0976329405'
-password = 'Ck6jo6xjp6'
+account = 'ccount'
+password = 'password'
 keywords = 'python'
 myname = ('css selector','[class="navbar__username"]')
 goods_name = ('css selector','[class="ie3A+n bM+7UW Cve6sh"]')
