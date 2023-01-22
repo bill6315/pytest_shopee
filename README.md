@@ -23,7 +23,10 @@ pytest_shopee內共有4個.py檔
 * myselenium.py
 * shopee.py
 * test_shopee.py
-#### conftest.py
+### conftest.py
 此檔案為pytest內建的功能，此檔案內的模塊可以直接被其他pytest檔的測試用例直接使用，不需要再import。
 裡面放著蝦皮網站的driver，功能為在測試用例開始前開啟蝦皮網站，並在測試結束後關閉網站。
-
+<img src="picture/code1.PNG">
+***
+### myselenium.py
+因為selenium的定位元素有時會因為網路延遲等問題無法正確的定位到，所以這邊我用webdriverwait
